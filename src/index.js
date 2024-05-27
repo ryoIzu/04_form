@@ -8,12 +8,13 @@ import Sample from './Components/Sample';
 import StateForm from './Components/StateForm';
 import FormTextarea from './Components/FormTextarea';
 import FormList from './Components/FormList';
-*/
 import FormRadio from './Components/FormRadio';
+*/
+import FormCheck from './Components/FormCheck';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <FormRadio />
+    <FormCheck />
   </>
 );
 
