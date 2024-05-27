@@ -3,12 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+/*
+import Sample from './Components/Sample';
+import StateForm from './Components/StateForm';
+import FormTextarea from './Components/FormTextarea';
+import FormList from './Components/FormList';
+*/
+import FormRadio from './Components/FormRadio';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <>
+    <FormRadio />
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
