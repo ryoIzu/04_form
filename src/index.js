@@ -9,12 +9,15 @@ import StateForm from './Components/StateForm';
 import FormTextarea from './Components/FormTextarea';
 import FormList from './Components/FormList';
 import FormRadio from './Components/FormRadio';
-*/
 import FormCheck from './Components/FormCheck';
+import FormCheckMulti from './Components/FormCheckMulti';
+*/
+import FormFile from './Components/FormFile';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <FormCheck />
+    <FormFile />
   </>
 );
 
